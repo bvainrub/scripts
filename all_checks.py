@@ -11,6 +11,6 @@ def main():
     if check_reboot():
         print("Pending Reboot.")
         sys.exit(1)
-    print("Everything OK. ")
+    print("Everything OK. update done on branch new feature")
     sys.exit(0)
 main()
